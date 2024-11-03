@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class ExitButton : MonoBehaviour
 {
     public void ExitButtonClickEvent() {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene("StartScene2");
     }
 }
