@@ -14,7 +14,7 @@ public class OpenSceneScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        level1Button.onClick.AddListener(() => SceneManager.LoadScene("SampleScene"));
+        level1Button.onClick.AddListener(() => SceneManager.LoadScene("GameScene"));
     }
 
     // Update is called once per frame
